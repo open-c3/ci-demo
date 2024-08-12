@@ -17,8 +17,8 @@ on:
     types:
       - completed
   status: { }
-env:
-  GITHUB_TOKEN: ${{secrets.TOKEN}}
+#env:
+  #GITHUB_TOKEN: ${{secrets.TOKEN}}
 
 jobs:
   automerge:
@@ -27,7 +27,8 @@ jobs:
       - name: automerge
         uses: "pascalgn/automerge-action@v0.16.3"
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: awfweffcafwe
+          #GITHUB_TOKEN: ${{ secrets.TOKEN }}
           MERGE_LABELS: "approved,auto merge,!ready to review"
           MERGE_METHOD: "squash"
           MERGE_COMMIT_MESSAGE: "automatic"
