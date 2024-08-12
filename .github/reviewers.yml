@@ -10,7 +10,7 @@ reviewers:
   
   per_author:
     engineers:
-      - lijinfeng_2011 # group
+      - lijinfeng2011 # group
 
 files:
   # Keys are glob expressions.
