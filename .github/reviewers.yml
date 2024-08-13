@@ -2,6 +2,7 @@ reviewers:
   # The default reviewers
   defaults:
     - lijinfeng2011 # group
+    - openc3-bot-001
 
   # Reviewer groups each of which has a list of GitHub usernames
   groups:
