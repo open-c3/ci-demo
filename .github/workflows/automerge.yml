@@ -17,8 +17,8 @@ on:
     types:
       - completed
   status: { }
-#env:
-  #GITHUB_TOKEN: ${{secrets.TOKEN}}
+env:
+  GITHUB_TOKEN: ${{secrets.PAT}}
 
 jobs:
   automerge:
