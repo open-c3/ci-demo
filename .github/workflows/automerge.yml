@@ -22,7 +22,8 @@ env:
 
 jobs:
   automerge:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
+    #runs-on: ubuntu-latest
     steps:
       - name: automerge
         uses: "pascalgn/automerge-action@v0.16.3"
