@@ -20,6 +20,8 @@ on:
   #env:
   #GITHUB_TOKEN: ${{secrets.PAT}}
 
+permissions: write-all
+
 jobs:
   automerge:
     runs-on: self-hosted
