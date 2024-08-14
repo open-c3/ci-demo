@@ -30,7 +30,6 @@ permissions:
   deployments: write
   discussions: write
   issues: write
-  metadata: write
   packages: write
   pages: write
   pullRequests: write
