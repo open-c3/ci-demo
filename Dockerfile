@@ -1,3 +1,5 @@
-FROM busybox
-RUN date >/tmp/foo.txt
-ENTRYPOINT [ "/bin/tail", "-f", "/dev/null" ]
+FROM nginx:latest
+
+COPY html /usr/share/nginx/html
+
+CMD ["nginx", "-g", "daemon off;"]
